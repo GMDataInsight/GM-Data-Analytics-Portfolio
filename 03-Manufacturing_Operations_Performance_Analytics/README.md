@@ -105,7 +105,7 @@ Additional calculated columns were created to support KPI calculations:
 | End Delay               | Calculation of end delay in h                                                                |
 | Shift                   | Preparation for comparation of results per shift                                             |
 
-### Dimension Tables ####
+### Dimension Tables ###
 
 
 #### Dim_Date ####
@@ -126,8 +126,79 @@ Key fields include:
 
 * Machine_ID
 
-### Dataset Purpose ####
+#### Dataset Purpose ####
 
 The dataset was structured to support manufacturing performance analysis through a Star Schema model, enabling efficient reporting and KPI calculation within Power BI.
+
+
+
+#### Data Model ####
+
+A Star Schema data model was implemented to ensure efficient reporting, simplified relationships, and scalable KPI calculations.
+The model consists of one fact table and two dimension tables.
+
+#### Data Model Structure ####
+
+#### Fact Table ####
+
+#### Fact_Production ####
+
+The Fact_Production table serves as the central transactional table containing production records and operational metrics.
+The table stores:
+
+* Production jobs
+* Processing times
+* Material consumption
+* Energy consumption
+* Production status
+* Productivity metrics
+
+This table is the primary source for all KPI calculations and dashboard visualizations.
+
+### Dimension Tables ####
+
+#### Dim_Date ####
+
+The Date dimension provides a dedicated calendar structure for time intelligence and trend analysis.
+
+Benefits:
+
+* Monthly performance reporting
+* Trend analysis
+* Time-based KPI tracking
+* Consistent date filtering
+
+#### Dim_Machine
+
+The Machine dimension provides machine-level context for operational analysis.
+
+Benefits:
+
+* Machine performance comparison
+* Productivity analysis
+* Equipment effectiveness monitoring
+* Operational benchmarking
+
+### Relationships
+
+| From Table  | To Table        | Relationship |
+| ----------- | --------------- | ------------ |
+| Dim_Date    | Fact_Production | 1 : *        |
+| Dim_Machine | Fact_Production | 1 : *        |
+
+Both relationships use a single-direction filter flow from dimension tables to the fact table.
+
+### Modeling Approach
+
+The Star Schema approach was selected because it:
+
+* Improves report performance
+* Simplifies DAX calculations
+* Reduces model complexity
+* Supports scalable dashboard development
+* Follows Power BI modeling best practices
+
+This structure enables efficient KPI calculations and provides a strong foundation for manufacturing analytics and operational reporting.
+
 
 
