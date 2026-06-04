@@ -107,7 +107,6 @@ Additional calculated columns were created to support KPI calculations:
 
 ### Dimension Tables ###
 
-
 #### Dim_Date ####
 
 The Date dimension was created to support time-based analysis and trend reporting.
@@ -132,14 +131,14 @@ The dataset was structured to support manufacturing performance analysis through
 
 
 
-#### Data Model ####
+### Data Model ####
 
 A Star Schema data model was implemented to ensure efficient reporting, simplified relationships, and scalable KPI calculations.
 The model consists of one fact table and two dimension tables.
 
-#### Data Model Structure ####
+### Data Model Structure ####
 
-#### Fact Table ####
+### Fact Table ####
 
 #### Fact_Production ####
 
