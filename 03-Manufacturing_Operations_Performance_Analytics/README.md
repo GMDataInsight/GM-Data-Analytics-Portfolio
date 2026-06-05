@@ -1,6 +1,6 @@
 # Manufacturing Operations Performance Analytics Dashboard
 
-#### Project Overview #####
+### Project Overview #####
 
 This project demonstrates the development of a Manufacturing Operations Performance Analytics Dashboard using Power BI.
 The objective was to transform raw manufacturing production data into actionable business insights through data modeling, KPI development, and interactive reporting.
@@ -15,7 +15,7 @@ The final solution consists of four analytical report pages:
 * Operations Performance
 
 
-#### Technologies Used ####
+### Technologies Used ####
 
 * Power BI
 * Power Query
@@ -24,7 +24,7 @@ The final solution consists of four analytical report pages:
 * Star Schema Design
 * Manufacturing KPI Framework
 
-#### Project Objectives ####
+### Project Objectives ####
 
 * Monitor manufacturing performance through KPIs
 * Analyze machine utilization and effectiveness
@@ -33,7 +33,7 @@ The final solution consists of four analytical report pages:
 * Support data-driven decision making
 * Improve visibility across manufacturing operations
 
-#### Business Problem ####
+### Business Problem ####
 
 Manufacturing companies generate large amounts of operational data from production processes, machines, and work orders. However, this data is often dispersed 
 across multiple systems and reports, making it difficult for management to gain a clear view of operational performance.
@@ -48,7 +48,7 @@ Without a centralized analytics solution, production managers face several chall
 
 As a result, decision-making becomes reactive rather than proactive, reducing overall operational efficiency and limiting opportunities for continuous improvement.
 
-#### Solution ####
+### Solution ####
 
 To address these challenges, a Power BI analytics solution was developed to consolidate manufacturing data into a single performance management dashboard.
 The solution provides:
@@ -63,13 +63,13 @@ By transforming raw production data into actionable insights, the dashboard enab
 monitor operational performance, and support data-driven decision making.
 
 
-#### Dataset Description ####
+### Dataset Description ####
 
 The project uses a Hybrid Manufacturing Dataset representing production activities across multiple machines and work orders.
 The dataset contains operational information related to production execution, processing times, material consumption, energy usage, and production status.
 
 
-#### Fact Table ####
+### Fact Table ####
 
 #### Fact_Production ####
 
@@ -125,7 +125,7 @@ Key fields include:
 
 * Machine_ID
 
-#### Dataset Purpose ####
+### Dataset Purpose ####
 
 The dataset was structured to support manufacturing performance analysis through a Star Schema model, enabling efficient reporting and KPI calculation within Power BI.
 
