@@ -700,4 +700,101 @@ Enhanced decision-making capabilities and greater operational visibility.
 
 
 
+## Skills Demonstrated
+
+This project demonstrates practical experience in the following areas:
+
+### Business Intelligence
+
+* KPI Development
+* Performance Analytics
+* Operational Reporting
+* Executive Dashboard Design
+* Data-Driven Decision Making
+
+### Power BI
+
+* Interactive Dashboard Development
+* Report Design and Visualization
+* Drill-Down Analysis
+* Cross-Filtering
+* Performance Optimization
+
+### Data Modeling
+
+* Star Schema Design
+* Fact and Dimension Modeling
+* Relationship Management
+* Data Transformation
+
+### DAX
+
+* KPI Calculations
+* Aggregation Measures
+* Ratio Metrics
+* Time-Based Analysis
+* Custom Performance Indicators
+
+### Manufacturing Analytics
+
+* Productivity Analysis
+* Availability Monitoring
+* Resource Utilization Analysis
+* Energy Efficiency Monitoring
+* Process Performance Evaluation
+
+### Data Preparation
+
+* Power Query Transformations
+* Data Cleansing
+* Feature Engineering
+* Calculated Columns Creation
+
+
+
+
+## Project Files
+
+### Power BI
+
+Contains the Power BI report file used to build the dashboard and KPI framework.
+
+```text
+powerbi/
+└── Manufacturing_Operations_Performance_Analytics.pbix
+```
+
+### Screenshots
+
+Contains dashboard screenshots used for project presentation and documentation.
+
+```text
+screenshots/
+├── executive-summary.png
+├── machine-analysis.png
+├── teams-analysis.png
+└── process-analysis.png
+```
+
+### Dataset
+
+Contains the manufacturing dataset used for the project.
+
+```text
+dataset/
+└── hybrid_manufacturing_dataset.xlsx
+```
+
+### Documentation
+
+Contains supporting project documentation and business analysis materials.
+
+```text
+documentation/
+└── project-documentation.pdf
+```
+
+
+
+
 
