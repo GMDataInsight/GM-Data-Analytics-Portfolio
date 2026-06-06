@@ -760,7 +760,7 @@ This project demonstrates practical experience in the following areas:
 Contains the Power BI report file used to build the dashboard and KPI framework.
 
 ```text
-powerbi/
+Power_BI/
 └── Manufacturing_Operations_Performance_Analytics.pbix
 ```
 
@@ -769,7 +769,7 @@ powerbi/
 Contains dashboard screenshots used for project presentation and documentation.
 
 ```text
-screenshots/
+ScreenShots/
 ├── executive-summary.png
 ├── machine-analysis.png
 ├── teams-analysis.png
@@ -781,7 +781,7 @@ screenshots/
 Contains the manufacturing dataset used for the project.
 
 ```text
-dataset/
+DataSets/
 └── hybrid_manufacturing_dataset.xlsx
 ```
 
@@ -790,7 +790,7 @@ dataset/
 Contains supporting project documentation and business analysis materials.
 
 ```text
-documentation/
+Documentation/
 └── project-documentation.pdf
 ```
 
