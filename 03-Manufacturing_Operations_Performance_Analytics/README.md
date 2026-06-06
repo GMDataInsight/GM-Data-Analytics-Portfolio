@@ -5,14 +5,14 @@
 This project demonstrates the development of a Manufacturing Operations Performance Analytics Dashboard using Power BI.
 The objective was to transform raw manufacturing production data into actionable business insights through data modeling, KPI development, and interactive reporting.
 The solution was designed to help production managers and operations teams monitor equipment effectiveness, production efficiency, resource utilization, and operational performance.
-Using a Star Schema data model, DAX calculations and Power Query, the dashboard provides visibility into key manufacturing metrics including productivity, delays, completion rates, 
+Using a Star Schema data model, DAX calculations and Power Query, the dashboard provides visibility into key manufacturing metrics including productivity, completion rates, 
 material consumption, and energy efficiency on shift basis.
 The final solution consists of four analytical report pages:
 
 * Executive Summary
 * Machine Analysis
-* Production Trends
-* Operations Performance
+* Process Analysis
+* Teams Analysis
 
 
 ### Technologies Used ####
@@ -28,7 +28,7 @@ The final solution consists of four analytical report pages:
 
 * Monitor manufacturing performance through KPIs
 * Analyze machine utilization and effectiveness
-* Identify production bottlenecks and delays
+* Analyze teams strong points and points to improve
 * Track productivity and operational efficiency
 * Support data-driven decision making
 * Improve visibility across manufacturing operations
@@ -55,7 +55,7 @@ The solution provides:
 
 * Standardized KPI monitoring
 * Productivity and performance analysis
-* Delay monitoring and trend analysis
+* Monitoring trend analysis
 * Material and energy consumption tracking
 * Executive-level operational reporting
 
@@ -103,7 +103,7 @@ Additional calculated columns were created to support KPI calculations:
 | Process status          | Status Completed/In Progress                                                                 |
 | Start Delay             | Calculation of start delay in h                                                              |
 | End Delay               | Calculation of end delay in h                                                                |
-| Shift                   | Preparation for comparation of results per shift                                             |
+| Team                    | Preparation for comparation of results per shift                                             |
 
 ### Dimension Tables ###
 
