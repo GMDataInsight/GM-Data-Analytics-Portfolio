@@ -200,4 +200,188 @@ The Star Schema approach was selected because it:
 This structure enables efficient KPI calculations and provides a strong foundation for manufacturing analytics and operational reporting.
 
 
+## KPI Framework
+
+The dashboard was designed around a manufacturing performance KPI framework focused on productivity, 
+operational efficiency, resource utilization, and production execution.
+The following KPIs are used throughout the dashboard pages.
+
+### Productivity
+
+Measures the material processed in Kg vs hours invested.
+
+**Purpose**
+
+* Main KPI which should represent major operational efficiency
+* Compare performance across machines, teams, and processes
+* Identify improvement opportunities
+
+
+**Used In**
+
+* Executive Summary
+* Machine Analysis
+* Teams Analysis
+* Process Analysis
+
+---
+
+### Availability
+
+Raw data given by client. Represents machine actvie time vs available time.
+
+**Purpose**
+
+* Evaluate equipment utilization
+* Identify downtime impact
+* Support production planning
+
+**Used In**
+
+* Executive Summary
+* Machine Analysis
+* Teams Analysis
+* Process Analysis
+
+---
+
+### Completion Rate
+
+Measures the percentage of successfully completed production jobs comparing to schedule plan.
+
+**Purpose**
+
+* Evaluate operational execution
+* Monitor production reliability
+* Track teams execution skills and efficiency
+
+**Used In**
+
+* Executive Summary
+* Teams Analysis
+* Process Analysis
+
+---
+
+### Total Jobs
+
+Represents the total number of production jobs processed during the selected period.
+
+**Purpose**
+
+* Measure production workload
+* Analyze operational throughput
+* Support capacity evaluation
+
+**Used In**
+
+* Executive Summary
+* Machine Analysis
+
+---
+
+### Total Material
+
+Represents the total quantity of material processed.
+
+**Purpose**
+
+* Measure production volume
+* Analyze material utilization
+* Compare process demand
+
+**Used In**
+
+* Executive Summary
+* Process Analysis
+
+---
+
+### Energy per Kg
+
+Measures energy efficiency by relating energy consumption to processed material quantity.
+
+**Purpose**
+
+* Benchmark operational efficiency
+* Compare machines, teams, and processes
+* Identify optimization opportunities
+
+**Used In**
+
+* Executive Summary
+* Machine Analysis
+* Teams Analysis
+* Process Analysis
+
+---
+
+### Team Performance Index
+
+A composite metric used to compare team effectiveness based on 
+productivity, availability, energy consumption and completion performance.
+
+**Purpose**
+
+* Rank team performance
+* Identify top-performing teams
+* Support workforce optimization
+
+**Used In**
+
+* Executive Summary
+* Teams Analysis
+
+---
+
+### Efficiency Categories
+
+Production records are grouped into efficiency levels to support performance segmentation.
+
+Categories include:
+
+* High Efficiency
+* Moderate Efficiency
+* Low Efficiency
+
+**Purpose**
+
+* Quickly identify operational performance distribution
+* Highlight improvement opportunities
+* Support management reporting
+
+**Used In**
+
+* Executive Summary
+* Teams Analysis
+* Process Analysis
+
+---
+
+### Trend KPIs
+
+Several trend indicators are used throughout the dashboard to monitor performance over time.
+
+Tracked trends include:
+
+* Productivity Trend
+* Energy per Kg Trend
+* Material Consumption Trend
+* Completion Rate Trend
+* Jobs Trend
+
+**Purpose**
+
+* Detect performance changes
+* Monitor operational stability
+* Support continuous improvement initiatives
+
+**Used In**
+
+* Executive Summary
+* Teams Analysis
+* Process Analysis
+
+
+
 
