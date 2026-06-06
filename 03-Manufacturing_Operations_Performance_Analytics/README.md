@@ -200,6 +200,8 @@ The Star Schema approach was selected because it:
 This structure enables efficient KPI calculations and provides a strong foundation for manufacturing analytics and operational reporting.
 
 
+
+
 ## KPI Framework
 
 The dashboard was designed around a manufacturing performance KPI framework focused on productivity, 
@@ -381,6 +383,320 @@ Tracked trends include:
 * Executive Summary
 * Teams Analysis
 * Process Analysis
+
+
+
+
+## Dashboard Pages
+
+The Power BI solution consists of four interactive report pages designed to provide visibility into 
+manufacturing performance from different operational perspectives.
+
+---
+
+### Executive Summary
+
+The Executive Summary page provides a high-level overview of manufacturing operations and key performance indicators.
+
+#### Key Metrics
+
+* Total Jobs
+* Total Material Processed
+* Completion Rate
+* Productivity
+* Energy per Kg
+* Best Performing Team
+
+#### Key Analysis
+
+* Team performance comparison
+* Productivity trends
+* Energy efficiency trends
+* Material consumption trends
+* Completion rate trends
+* Efficiency category distribution
+* Production volume by operation type
+* Productivity by operation type
+
+#### Business Value
+
+This page enables management to quickly assess overall operational performance, identify top-performing teams, identify improvement points, 
+and monitor key manufacturing trends.
+
+---
+
+### Machine Analysis
+
+The Machine Analysis page focuses on machine-level operational performance and efficiency.
+
+#### Key Metrics
+
+* Total Jobs
+* Availability
+* Average Productivity
+* Energy per Kg
+
+#### Key Analysis
+
+* Productivity by machine
+* Availability by machine
+* Job completion performance
+* Top performing machine-process combinations
+* Lowest performing machine-process combinations
+* Energy consumption by machine
+
+#### Business Value
+
+This page helps identify high-performing and underperforming machines, supporting maintenance planning, capacity optimization, planning optimization
+and operational improvement initiatives.
+
+---
+
+### Teams Analysis
+
+The Teams Analysis page evaluates production team performance across key operational metrics.
+
+#### Key Metrics
+
+* Productivity
+* Availability
+* Completion Rate
+* Energy per Kg
+
+#### Key Analysis
+
+* Team efficiency comparison
+* Productivity by team / process combination
+* Energy efficiency by team / machine combination
+* Productivity trends by team
+* Energy trends by team
+* Process-level performance within each team
+
+#### Business Value
+
+This page supports workforce performance analysis, identifies best-performing teams, and highlights opportunities for productivity improvements and employee training planification.
+
+
+---
+
+### Process Analysis
+
+The Process Analysis page provides detailed insights into operational performance across manufacturing processes.
+
+#### Key Metrics
+
+* Productivity
+* Availability
+* Completion Rate
+* Energy per Kg
+
+#### Key Analysis
+
+* Process efficiency comparison
+* Productivity by process
+* Energy efficiency by process
+* Productivity trends by process
+* Energy consumption trends by process
+* Process completion performance
+
+#### Business Value
+
+This page enables management to evaluate process effectiveness, identify operational bottlenecks, and optimize resource utilization across manufacturing operations.
+
+---
+
+### Interactive Features
+
+The dashboard includes interactive filtering and navigation capabilities:
+
+* Cross-filtering between visuals
+* Date-based analysis
+* Drill-down capabilities
+* Dynamic KPI calculations
+* Multi-page navigation
+
+These features allow users to explore operational performance from executive, machine, team, and process perspectives.
+
+
+
+## Key Findings
+
+The analysis revealed several important operational insights across machines, teams, and manufacturing processes.
+
+### 1. Team I Demonstrated the Highest Overall Performance
+
+Team I achieved the highest productivity level while maintaining strong completion rates and competitive energy efficiency.
+On the other hand, each team excelled in productivity on some process, and energy on some of machines.
+This indicates that there is specific technical and organizational knowledge in each team which could be future best practice base.
+
+---
+
+### 2. Significant Productivity Differences Exist Across Manufacturing Processes
+
+Additive process achieved the highest productivity levels, while Grinding showed lower productivity performance which dropped 4 days ago and still on low level.
+This suggests opportunities for process optimization and further investigation into operational constraints affecting lower-performing processes.
+
+---
+
+### 3. Machine Performance Varies Considerably
+
+Productivity analysis showed noticeable differences between machines, with some machine-process combinations significantly outperforming others.
+In term of completition rate, there is indication of technical issues with some of the machines.
+This variation indicates opportunities to standardize operating procedures and improve machine utilization and maintenance.
+
+---
+
+### 4. Energy Efficiency Differs Across Teams and Processes
+
+Energy consumption per kilogram varied between teams and manufacturing processes.
+These differences suggest that operational practices, machine utilization, and process characteristics have a direct impact on energy efficiency.
+
+---
+
+### 5. Completion Rates Indicate Opportunities for Operational Improvement
+
+While the overall completion rate remained above 70%, delayed and failed jobs continue to impact operational performance.
+Reducing delays and improving job execution could significantly increase overall manufacturing efficiency.
+
+---
+
+### 6. Process-Level Trend Analysis Revealed Performance Fluctuations
+
+Several manufacturing processes showed fluctuations in productivity and energy consumption over time.
+Continuous monitoring of these trends can help identify emerging operational issues before they impact overall performance.
+
+---
+
+### 7. Operational Performance Benefits from Multi-Dimensional Analysis
+
+Combining machine, team, and process perspectives provided a more comprehensive understanding of manufacturing performance than any single metric alone.
+This demonstrates the value of an integrated manufacturing analytics approach.
+
+
+
+
+## Business Recommendations
+
+Based on the analysis of manufacturing operations, several improvement opportunities were identified.
+
+### 1. Replicate Best Practices from High-Performing Teams
+
+**Recommendation:**
+
+* Analyze workflows used by Team I.
+* Examine operating practices of Team I on Milling and Drilling process.
+* Examine operating practices of Team II on Additive process.
+* Standardize successful operating practices.
+* Share best practices across production teams.
+
+**Expected Benefit:**
+
+Improved productivity and operational consistency across the workforce.
+
+---
+
+### 2. Investigate Low-Productivity Processes
+
+Certain manufacturing processes showed lower productivity levels than others.
+
+**Recommendation:**
+
+* Compare process workflows between Additive and Grinding in term of productivity (speed, complexity).
+* Evaluate machine setup and process execution procedures between Lathe and Additive.
+* Identify gaps and go towards equalization as much as possible. 
+* Identify issue on 2023-03-22 on grinding process.
+* Identify issue on 2023-03-23 on lathe process.
+* Identify improvement on 2023-03-23 on Drilling process and standardize it.
+* Identify workflow on 2023-03-24 on additie process and standardize it.
+
+**Expected Benefit:**
+
+Higher throughput, improved resource utilization and achiveable planification of production.
+
+---
+
+### 3. Investigate machine-process combinations performance
+
+**Recommendation:**
+**Short term **
+* Plan Drilling process on M01 machine / avoid M02
+* Plan Grinding process on M02 machine / avoid M04
+* Plan Milling process on M03 machine
+* Plan Additive process on M04 machine / avoid M01
+* Plan lathe process on M05 machine / avoid M01
+
+**Middle Term**
+* Standardize processes between machines according to best practice
+
+**Expected Benefit:**
+
+Higher productivity and energy consumption performance.
+
+---
+
+### 4. Optimize Energy Efficiency
+
+Energy consumption per kilogram varies across teams and processes.
+
+**Recommendation:**
+
+* Benchmark M02 regarding energy efficiency (spare parts, connections, speed, resistance)
+* Benchmark Team2 efforts for energy performance in last 4 days. 
+* Implement energy optimization initiatives
+
+**Expected Benefit:**
+
+Lower operational costs and improved sustainability performance.
+
+---
+
+### 5. Improve completion rates
+
+Completion rates are above 70% in global and no significant difference between teams, machines or procesess.
+
+**Recommendation:**
+
+* Review planification of production.
+* Review and improve preparation and startup procedure for all procesess and equipment 
+
+**Expected Benefit:**
+
+Lower operational costs and improved sustainability performance.
+
+---
+
+### 6. Track perofrmance on daily basis
+
+Analysis revealed significant trend fluctuations in all KPIs.
+
+**Recommendation:**
+
+* Organize daily routine for review and quick action for each KPI.
+* Inform production teams about results on daily basis
+
+**Expected Benefit:**
+
+Result oriented and competitive teams bring biggest impact on performance.
+
+---
+
+### 7. Expand Operational Performance Monitoring
+
+The dashboard demonstrates the value of integrated manufacturing analytics.
+
+**Recommendation:**
+
+Future versions could incorporate:
+
+* Downtime tracking
+* Root cause analysis
+* Predictive maintenance indicators
+* Quality performance metrics
+* Production forecasting
+
+**Expected Benefit:**
+
+Enhanced decision-making capabilities and greater operational visibility.
 
 
 
