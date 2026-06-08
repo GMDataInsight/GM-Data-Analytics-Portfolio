@@ -764,8 +764,8 @@ This project demonstrates practical experience in the following areas:
 Contains the Power BI report file used to build the dashboard and KPI framework.
 
 ```text
-Power_BI/
-└── Manufacturing_Operations_Performance_Analytics.pbix
+powerbi/
+└── Manufacturing_Operations_Performance_Analytics.pbix (1.25 MB)
 ```
 
 ### Screenshots
