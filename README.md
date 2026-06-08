@@ -1,4 +1,4 @@
-# GM Data Analytics Portfolio
+# GM Data Insight Portfolio
 
 Welcome to my Data Analytics portfolio, showcasing end-to-end Business Intelligence and Analytics projects developed using Power BI, Power Query, DAX, and data modeling best practices.
 
