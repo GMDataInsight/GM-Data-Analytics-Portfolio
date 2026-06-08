@@ -1,5 +1,7 @@
 # Manufacturing Operations Performance Analytics Dashboard
 
+![Cover](screenshots/Cover.png)
+
 ### Project Overview #####
 
 This project demonstrates the development of a Manufacturing Operations Performance Analytics Dashboard using Power BI.
@@ -132,6 +134,8 @@ The dataset was structured to support manufacturing performance analysis through
 
 
 ### Data Model ####
+
+![Data Model](documentation/Data_Model.png)
 
 A Star Schema data model was implemented to ensure efficient reporting, simplified relationships, and scalable KPI calculations.
 The model consists of one fact table and two dimension tables.
@@ -795,6 +799,25 @@ Documentation/
 ```
 
 
+## Screenshots Gallery
+
+### Executive Summary
+
+![Executive Summary](screenshots/Executive_Summary.png)
+
+### Machine Analysis
+
+![Machine Analysis](screenshots/Machine_Analysis.png)
+
+### Teams Analysis
+
+![Teams Analysis](screenshots/Teams_Analysis.png)
+
+### Process Analysis
+
+![Process Analysis](screenshots/Process_Analysis.png)
+
+	
 
 
 
