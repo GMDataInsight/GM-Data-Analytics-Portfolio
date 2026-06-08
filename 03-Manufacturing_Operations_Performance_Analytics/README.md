@@ -135,7 +135,7 @@ The dataset was structured to support manufacturing performance analysis through
 
 ### Data Model ####
 
-![Data Model](documentation/Data_Model.png)
+![Data Model](documentation/Data_Model.PNG)
 
 A Star Schema data model was implemented to ensure efficient reporting, simplified relationships, and scalable KPI calculations.
 The model consists of one fact table and two dimension tables.
@@ -774,10 +774,10 @@ Contains dashboard screenshots used for project presentation and documentation.
 
 ```text
 ScreenShots/
-├── executive-summary.png
-├── machine-analysis.png
-├── teams-analysis.png
-└── process-analysis.png
+├── executive-summary.PNG
+├── machine-analysis.PNG
+├── teams-analysis.PNG
+└── process-analysis.PNG
 ```
 
 ### Dataset
@@ -803,19 +803,19 @@ Documentation/
 
 ### Executive Summary
 
-![Executive Summary](screenshots/Executive_Summary.png)
+![Executive Summary](screenshots/Executive_Summary.PNG)
 
 ### Machine Analysis
 
-![Machine Analysis](screenshots/Machine_Analysis.png)
+![Machine Analysis](screenshots/Machine_Analysis.PNG)
 
 ### Teams Analysis
 
-![Teams Analysis](screenshots/Teams_Analysis.png)
+![Teams Analysis](screenshots/Teams_Analysis.PNG)
 
 ### Process Analysis
 
-![Process Analysis](screenshots/Process_Analysis.png)
+![Process Analysis](screenshots/Process_Analysis.PNG)
 
 	
 
