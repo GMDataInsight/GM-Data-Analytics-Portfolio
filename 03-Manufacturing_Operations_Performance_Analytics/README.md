@@ -1,6 +1,6 @@
 # Manufacturing Operations Performance Analytics Dashboard
 
-![Cover](screenshots/Cover.png)
+![Cover](ScreenShots/Cover.png)
 
 ### Project Overview #####
 
@@ -611,7 +611,7 @@ Certain manufacturing processes showed lower productivity levels than others.
 * Identify issue on 2023-03-22 on grinding process.
 * Identify issue on 2023-03-23 on lathe process.
 * Identify improvement on 2023-03-23 on Drilling process and standardize it.
-* Identify workflow on 2023-03-24 on additie process and standardize it.
+* Identify workflow on 2023-03-24 on additive process and standardize it.
 
 **Expected Benefit:**
 
