@@ -1,6 +1,6 @@
 # Manufacturing Operations Performance Analytics Dashboard
 
-![Cover.png](ScreenShots/Cover.png)
+![Cover](./screenshots/Cover.png)
 
 ### Project Overview #####
 
