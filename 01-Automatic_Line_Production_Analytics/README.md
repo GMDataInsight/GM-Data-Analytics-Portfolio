@@ -2,7 +2,7 @@
 
 ### End-to-End Manufacturing Business Intelligence Solution
 
-![Dashboard Preview](screenshots/dashboard_preview.png)
+![Dashboard Preview](screenshots/dashboard_preview.PNG)
 
 This project demonstrates the development of a complete Business Intelligence solution for monitoring and analyzing automated casting production lines. It combines SQL Server and Power BI to transform raw production, planning, and quality data into actionable business insights through an optimized analytical model.
 
@@ -16,7 +16,7 @@ The primary objective is to measure Overall Equipment Effectiveness (OEE), monit
 
 | Executive Summary | OEE Analysis |
 |-------------------|--------------|
-| ![](screenshots/executive_summary.png) | ![](screenshots/oee_analysis.png) |
+| ![](screenshots/executive_summary.PNG) | ![](screenshots/oee_analysis.PNG) |
 
 ---
 
