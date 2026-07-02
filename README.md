@@ -37,9 +37,9 @@ This portfolio demonstrates practical analytics solutions designed to support da
 
 # Portfolio Projects
 
-## 01 – Casting Production Analytics
+## 01 – Automatic Line Production Analytics
 
-Production analytics solution focused on casting operations performance, productivity monitoring, operational efficiency, and resource utilization.
+Production analytics solution focused on automatic line operations performance, productivity monitoring, operational efficiency, and resource utilization.
 
 ### Key Areas
 
@@ -51,9 +51,9 @@ Production analytics solution focused on casting operations performance, product
 
 ---
 
-## 02 – Sand Core Production Analytics
+## 02 – Manual Line Production Analytics
 
-Analytics solution designed to evaluate sand core manufacturing performance, process efficiency, and production effectiveness.
+Analytics solution designed to evaluate manual line manufacturing performance, process efficiency, and production effectiveness.
 
 ### Key Areas
 
