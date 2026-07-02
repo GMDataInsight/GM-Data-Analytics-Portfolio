@@ -40,7 +40,7 @@ The solution was designed to answer the following business questions:
 
 # 🏭 Business Process
 
-![Business Process](Screenshots/business_process_flow.PNG)
+![Business Process](screenshots/business_process_flow.PNG)
 
 ---
 
