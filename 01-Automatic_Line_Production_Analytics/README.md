@@ -125,17 +125,32 @@ Detailed analysis of production efficiency across production lines, shifts, and 
 
 # 🔍 Key Findings
 
-> **Summarize the most important insights identified during the analysis.**
+The analysis identified several important operational insights:
 
-*(To be completed based on the final dashboard results.)*
+- Overall Equipment Effectiveness (OEE) remained significantly below the world-class benchmark across all production lines.
+- Volume Load showed a positive trend throughout the observed period, while Availability remained stable.
+- Performance and Quality were identified as the primary contributors to the overall low OEE, with both KPIs showing a negative trend over time.
+- **Line 1** recorded the lowest OEE (approximately 36%). The decline began in June 2025 and coincided with reduced Performance and Quality levels. During the same period, the production mix shifted toward products **320053** and **320051**, while the number of Line Leaders and Operators also increased.
+- **Line 2** showed an overall positive OEE trend; however, a significant Performance decrease was observed between June and November 2025. This period coincided with the introduction of additional Line Leaders. After returning to the standard Line Leader configuration, Performance recovered.
+- **Line 3** experienced a noticeable Performance decline starting in June 2025. The same period also coincided with an increase in the number of Operators assigned to the production line.
+- **Lines 4 and 5** exhibited a similar performance pattern, indicating common operational challenges across multiple production lines.
+
+These findings indicate that organizational and production mix changes may have influenced manufacturing performance and should be investigated further to determine their operational impact.
 
 ---
 
 # 💡 Business Recommendations
 
-> **Provide practical recommendations that management can implement based on the analytical findings.**
+Based on the analytical findings, the following improvement opportunities have been identified:
 
-*(To be completed based on the final dashboard results.)*
+- Investigate the root causes of the Performance and Quality decline observed from June 2025 onward. Potential factors include weather conditions, employee absenteeism, and organizational changes.
+- Perform a detailed analysis of products **320051**, **320053**, and **317757** to evaluate their impact on production performance. Areas of investigation should include tooling complexity, product design, and compatibility with existing production lines.
+- Review workforce allocation and employee movement between production lines after June 2025 to determine whether frequent personnel changes affected operational stability.
+- Evaluate the effectiveness of operator training, onboarding, and polyvalence management to ensure employees are assigned according to their competency levels.
+- Consider implementing a structured operator certification process, including knowledge validation and formal qualification before independent work on a production line.
+- Analyze tool change activities across all production lines. The high product mix suggests frequent changeovers, making SMED principles and setup time reduction potential improvement opportunities.
+
+- Establish regular KPI review meetings using the developed Power BI dashboards to monitor corrective actions and measure continuous improvement initiatives.
 
 ---
 
