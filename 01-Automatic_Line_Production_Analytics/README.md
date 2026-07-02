@@ -2,9 +2,8 @@
 
 ### End-to-End Manufacturing Business Intelligence Solution
 
-![Dashboard Preview](screenshots/dashboard_preview.PNG)
-
-This project demonstrates the development of a complete Business Intelligence solution for monitoring and analyzing automated casting production lines. It combines SQL Server and Power BI to transform raw production, planning, and quality data into actionable business insights through an optimized analytical model.
+This project demonstrates the development of a complete Business Intelligence solution for monitoring and analyzing automated casting production lines. 
+The solution transforms raw production, planning, and quality data into actionable business insights using SQL Server and Power BI.
 
 The primary objective is to measure Overall Equipment Effectiveness (OEE), monitor production performance, identify operational bottlenecks, and support data-driven decision-making.
 
@@ -12,19 +11,17 @@ The primary objective is to measure Overall Equipment Effectiveness (OEE), monit
 
 # 📷 Dashboard Preview
 
-> Dashboard screenshots are available in the **Screenshots** folder.
-
-| Executive Summary | OEE Analysis |
-|-------------------|--------------|
-| ![](screenshots/executive_summary.PNG) | ![](screenshots/oee_analysis.PNG) |
+![Dashboard Preview](screenshots/dashboard_preview.PNG)
 
 ---
 
 # 📌 Project Overview
 
-Manufacturing companies generate thousands of production records every day. Without a structured analytical solution, it becomes difficult to monitor equipment efficiency, compare planned versus actual production, identify quality losses, and support operational decision-making.
+Manufacturing companies generate thousands of production records every day. Without a structured analytical solution, it becomes difficult to monitor equipment efficiency, 
+compare planned versus actual production, identify quality losses, and support operational decision-making.
 
-This project delivers a complete Manufacturing Analytics solution that integrates production, planning, and quality data into a unified analytical model. The solution provides interactive dashboards for monitoring production performance and Overall Equipment Effectiveness (OEE).
+This project delivers a complete Manufacturing Analytics solution that integrates production, planning, and quality data into a unified analytical model. 
+The solution provides interactive dashboards for monitoring production performance and Overall Equipment Effectiveness (OEE).
 
 ---
 
@@ -37,36 +34,13 @@ The solution was designed to answer the following business questions:
 - How does actual production compare to the production plan?
 - Which production teams achieve the highest efficiency?
 - What are the current production trends?
-- Where are the largest quality losses?
 - How efficiently is available production capacity being utilized?
 
 ---
 
-# 💡 Solution Overview
+# 🏭 Business Process
 
-The solution follows a layered Business Intelligence architecture.
-
-```
-Production Data
-Planning Data
-Quality Data
-Parameters Data
-        │
-        ▼
- SQL Server Views
-        │
-        ▼
-   Star Schema
-        │
-        ▼
-     Power BI
-        │
-        ▼
- Interactive Dashboards
-        │
-        ▼
- Business Decisions
-```
+![Business Process](Screenshots/business_process_flow.PNG)
 
 ---
 
@@ -76,8 +50,8 @@ Parameters Data
 |--------|------------|
 | Database | SQL Server |
 | Data Preparation | SQL Views |
-| Data Modeling | Star Schema |
 | ETL | Power Query |
+| Data Modeling | Star Schema |
 | Analytics | DAX |
 | Visualization | Power BI |
 | Version Control | Git & GitHub |
@@ -86,74 +60,31 @@ Parameters Data
 
 # 🏗 Solution Architecture
 
-![Architecture](screenshots/architecture.png)
-
-The reporting solution consists of multiple analytical layers:
-
-- Raw production data
-- SQL transformation layer
-- Business logic implemented through SQL Views
-- Star Schema analytical model
-- DAX calculation layer
-- Interactive Power BI dashboards
+![Solution Architecture](screenshots/solution_architecture.PNG)
 
 ---
 
 # 🗂 Data Model
 
-![Star Schema](screenshots/data_model.png)
-
-The Power BI solution follows a Star Schema design to ensure high performance, scalability, and simplified analytical reporting.
-
-### Fact Table
-
-- vw_OEEAutoLine
-
-### Dimension Tables
-
-- Dim_Date
-- Dim_Line
-- Dim_Shift
+![Star Schema](screenshots/data_model.PNG)
 
 ---
 
 # 🔄 SQL Data Pipeline
 
-![SQL Pipeline](screenshots/sql_pipeline.png)
-
-```
-Raw Production Tables
-          │
-          ▼
-vw_Production_Detail
-          │
-          ▼
-vw_OEE_Daily
-          │
-          ▼
-vw_OEE_Monthly
-          │
-          ▼
-vw_OEEAutoLine
-          │
-          ▼
-Power BI Dataset
-```
+![SQL Pipeline](screenshots/sql_data_pipeline.PNG)
 
 ---
 
-# 📊 Key Performance Indicators
+# 📊 KPI Framework
 
-| KPI | Description |
-|------|-------------|
-| Quality | Good Production / Total Production |
-| Industrial Load | Available Capacity / Theoretical Capacity |
-| Volume Load | Planned Capacity / Available Capacity |
-| Performance | Actual Production / Planned Capacity |
-| Availability | Actual Production Time / Planned Production Time |
-| OEE | Availability × Performance × Quality × Industrial Load × Industrial Load |
-| Production Quantity | Total Produced Parts |
-| Scrap | Rejected Production |
+![KPI Framework](screenshots/kpi_framework.PNG)
+
+Additional KPIs include:
+
+- Production Quantity
+- Scrap
+- Forecast KPI
 
 ---
 
@@ -161,32 +92,50 @@ Power BI Dataset
 
 ## Executive Summary
 
-Executive dashboard providing a high-level overview of manufacturing performance.
+![Executive Summary](screenshots/executive_summary.PNG)
 
-**Features**
+Provides an executive overview of manufacturing performance through KPI cards, trend analysis, forecasting, and production monitoring.
 
-- Production KPI Cards
-- OEE Overview
+**Main Features**
+
+- KPI Cards
 - Production Trends
-- Forecast KPI
+- Forecast
 - Capacity Monitoring
-- Interactive Filtering
+- Interactive Slicers
 
 ---
 
 ## OEE Analysis
 
-Detailed analysis of manufacturing efficiency.
+![OEE Analysis](screenshots/oee_analysis.PNG)
 
-**Features**
+Detailed analysis of production efficiency across production lines, shifts, and time periods.
 
-- OEE by Production Line
-- Availability Analysis
-- Performance Analysis
-- Quality Analysis
-- Operator and Line Leader Performance
+**Main Features**
+
+- OEE Analysis
+- Availability
+- Performance
+- Quality
 - Monthly Trends
-- Interactive Drill-down
+- Drill-down Analysis
+
+---
+
+# 🔍 Key Findings
+
+> **Summarize the most important insights identified during the analysis.**
+
+*(To be completed based on the final dashboard results.)*
+
+---
+
+# 💡 Business Recommendations
+
+> **Provide practical recommendations that management can implement based on the analytical findings.**
+
+*(To be completed based on the final dashboard results.)*
 
 ---
 
@@ -194,14 +143,14 @@ Detailed analysis of manufacturing efficiency.
 
 The implemented solution enables:
 
-- Continuous production performance monitoring
-- OEE measurement across production lines
-- Production planning comparison
+- Daily production monitoring
+- OEE measurement
 - Capacity utilization analysis
+- Production planning comparison
 - Scrap monitoring
-- Faster management reporting
-- Improved operational decision-making
-- Support for continuous improvement initiatives
+- Executive reporting
+- Faster operational decision-making
+- Continuous improvement initiatives
 
 ---
 
@@ -213,32 +162,31 @@ The implemented solution enables:
 - Star Schema Data Modeling
 - Advanced DAX Measures
 - Manufacturing KPI Framework
+- Forecast Analytics
 - Interactive Power BI Dashboards
-- Forecast Analysis
-- Professional Dashboard Design
+- Professional UI Design
 - Manufacturing Analytics Best Practices
 
 ---
 
 # 📂 Repository Structure
 
-```
-01-Automatic_Production_Line_Analytics
-│
-├── Data
-├── Documentation
-├── Power BI
-│   └── Automatic_Production_Line_Analytics.pbix
-├── SQL
-│   ├── Tables
-│   ├── Views
-│   ├── Functions
-│   └── Stored Procedures
-├── Screenshots
-├── README.md
-├── LICENSE
-└── .gitignore
-```
+![Respository Structure](screenshots/respository_architecture.PNG)
+
+---
+
+# 📚 Documentation
+
+Additional project documentation is available in the **Documentation** folder.
+
+Included documentation:
+
+- Project Architecture
+- Business Logic
+- SQL Documentation
+- Data Model
+- Power BI Documentation
+- DAX Measures
 
 ---
 
@@ -246,18 +194,18 @@ The implemented solution enables:
 
 Possible future enhancements include:
 
-- Power BI Service deployment
-- Automated data refresh
-- Near real-time reporting
-- Predictive maintenance analytics
-- Machine-level drill-through analysis
-- AI-assisted production forecasting
+- Power BI Service Deployment
+- Automated Data Refresh
+- Near Real-Time Reporting
+- Predictive Maintenance
+- Machine-Level Drill-through
+- AI-assisted Production Forecasting
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 About the Author
 
-**Miroslav Grujic**
+**Miroslav Grujic - GM Data Insight**
 
 Manufacturing Data Analytics | SQL Server | Power BI | Operations Analytics
 
@@ -265,10 +213,10 @@ With 18 years of experience in the automotive industry, this project combines ma
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is available under the MIT License.
+This project is licensed under the MIT License.
 
 ---
 
-### ⭐ If you found this project interesting, consider exploring the other projects available in my GM Data Analytics Portfolio
+⭐ If you found this project interesting, feel free to explore the other projects available in my **GM Data Analytics Portfolio**.
