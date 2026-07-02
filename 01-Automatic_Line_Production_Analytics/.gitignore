@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Power BI
+*.pbiCache
+*.pbix.autosave
+
+# Temporary files
+*.tmp
+*.bak
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# User-specific files
+*.user
+*.suo
+
+# Python
+__pycache__/
+
+# SQL Server
+*.ldf
+*.mdf
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# OneDrive
+*.lnk
