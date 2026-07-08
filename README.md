@@ -195,7 +195,7 @@ This portfolio reflects my approach to developing complete analytics solutionsâ€
 If you'd like to discuss Manufacturing Data Analytics, Business Intelligence, or potential collaboration opportunities, feel free to get in touch.
 
 - **GitHub:** https://github.com/GMDataInsight
-- **LinkedIn:** *(to Ä‡emo dodati kada ga optimizujemo)*
+- **LinkedIn:** www.linkedin.com/in/miroslav-grujic-55567578
 - **Email:** office@gmdataisnight.com
 
 ---
